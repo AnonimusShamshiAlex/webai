@@ -29,7 +29,7 @@ app.add_middleware(
 )
 
 # Ключ API
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = "API_OPENROUTER_API_KEY"
 
 # Создаем директорию для статических файлов
 static_dir = Path("static")
@@ -800,4 +800,5 @@ if __name__ == "__main__":
     ╚══════════════════════════════════════════════════════════════╝
     """.format(local_ip, ngrok_status))
     
+
     uvicorn.run(app, host="0.0.0.0", port=5000)
