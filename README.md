@@ -30,8 +30,8 @@
 ### 1. Клонирование репозитория
 
 ```bash
-git clone https://github.com/твой-username/dr-titi-chat.git
-cd dr-titi-chat
+git clone https://github.com/AnonimusShamshiAlex/webai
+cd webai
 ```
 
 ### 2. Установка зависимостей
